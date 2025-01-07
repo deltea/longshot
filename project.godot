@@ -14,6 +14,12 @@ config/name="long shot"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Clock="*res://autoloads/Clock.gd"
+AudioManager="*res://autoloads/AudioManager/AudioManager.tscn"
+RoomManager="*res://autoloads/RoomManager/RoomManager.tscn"
+
 [display]
 
 window/size/viewport_width=480
