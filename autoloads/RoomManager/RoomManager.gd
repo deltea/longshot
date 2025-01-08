@@ -1,7 +1,5 @@
 extends CanvasLayer
 
-# var room: PackedScene = preload("res://rooms/room.tscn")
-
 ## The current loaded room object.
 var current_room: Room
 
